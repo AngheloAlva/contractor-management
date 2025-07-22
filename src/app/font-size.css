@@ -1,0 +1,55 @@
+:root {
+	--font-size-factor: 1;
+}
+
+html[data-font-size="small"] {
+	--font-size-factor: 0.9;
+}
+
+html[data-font-size="medium"] {
+	--font-size-factor: 1;
+}
+
+html[data-font-size="large"] {
+	--font-size-factor: 1.15;
+}
+
+html[data-font-size="x-large"] {
+	--font-size-factor: 1.3;
+}
+
+html {
+	font-size: calc(var(--text-base) * var(--font-size-factor));
+}
+
+.text-xs {
+	font-size: calc(var(--text-xs) * var(--font-size-factor));
+}
+
+.text-sm {
+	font-size: calc(var(--text-sm) * var(--font-size-factor));
+}
+
+.text-base {
+	font-size: calc(var(--text-base) * var(--font-size-factor));
+}
+
+.text-lg {
+	font-size: calc(var(--text-lg) * var(--font-size-factor));
+}
+
+.text-xl {
+	font-size: calc(var(--text-xl) * var(--font-size-factor));
+}
+
+.text-2xl {
+	font-size: calc(var(--text-2xl) * var(--font-size-factor));
+}
+
+.text-3xl {
+	font-size: calc(var(--text-3xl) * var(--font-size-factor));
+}
+
+.text-4xl {
+	font-size: calc(var(--text-4xl) * var(--font-size-factor));
+}
