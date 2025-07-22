@@ -552,8 +552,8 @@ export default function WorkPermitForm({
 											label: "Instalaciones de contratista",
 										},
 										{
-											value: "Bodegas de residuos IngSimple",
-											label: "Bodegas de residuos IngSimple",
+											value: "Bodegas de residuos Ingeniería Simple",
+											label: "Bodegas de residuos Ingeniería Simple",
 										},
 									]}
 								/>

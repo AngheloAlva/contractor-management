@@ -34,7 +34,9 @@ export default async function ResetPasswordPage(props: {
 								Restablecer contraseña
 							</h1>
 							<div className="bg-gradient-to-br from-green-600 to-green-700 bg-clip-text">
-								<p className="inline text-2xl font-black text-transparent xl:text-4xl">IngSimple</p>
+								<p className="inline text-2xl font-black text-transparent xl:text-4xl">
+									Ingeniería Simple
+								</p>
 							</div>
 						</div>
 					</div>
@@ -42,7 +44,7 @@ export default async function ResetPasswordPage(props: {
 					<ResetPassword token={token} />
 
 					<p className="text-muted-foreground mt-auto h-full text-center text-sm leading-relaxed">
-						IngSimple © {new Date().getFullYear()}
+						Ingeniería Simple © {new Date().getFullYear()}
 					</p>
 				</main>
 

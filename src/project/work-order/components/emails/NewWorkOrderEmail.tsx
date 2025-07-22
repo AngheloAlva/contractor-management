@@ -64,7 +64,7 @@ const NewWorkOrderEmail = ({ workOrder }: NewWorkOrderEmailProps) => {
 						<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 							<Img
 								src="https://otc360.ingsimple.cl/logo.jpg"
-								alt="IngSimple Logo"
+								alt="Ingeniería Simple Logo"
 								className="mx-auto h-auto w-full max-w-[200px] object-cover"
 							/>
 						</Section>
@@ -77,7 +77,7 @@ const NewWorkOrderEmail = ({ workOrder }: NewWorkOrderEmailProps) => {
 
 							<Text className="mb-[24px] text-[16px] leading-[24px] text-gray-600">
 								Estimado/a <strong>{workOrder.supervisor.name}</strong>, se le ha asignado una nueva
-								Orden de Trabajo en el sistema IngSimple.
+								Orden de Trabajo en el sistema Ingeniería Simple.
 							</Text>
 
 							{/* Work Order Details */}
@@ -226,7 +226,7 @@ const NewWorkOrderEmail = ({ workOrder }: NewWorkOrderEmailProps) => {
 									href={systemUrl}
 									className="box-border rounded-[8px] bg-blue-500 px-[32px] py-[12px] text-[16px] font-semibold text-white hover:bg-blue-600"
 								>
-									Acceder a IngSimple
+									Acceder a Ingeniería Simple
 								</Button>
 							</Section>
 
@@ -241,7 +241,7 @@ const NewWorkOrderEmail = ({ workOrder }: NewWorkOrderEmailProps) => {
 						{/* Footer */}
 						<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 							<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-								© {new Date().getFullYear()} IngSimple
+								© {new Date().getFullYear()} Ingeniería Simple
 							</Text>
 							<Text className="m-0 text-center text-[12px] text-gray-500">
 								Notificación Automática del Sistema - No Responder

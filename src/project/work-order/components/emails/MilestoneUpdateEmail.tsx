@@ -39,14 +39,14 @@ export const MilestoneUpdateEmail: React.FC<Readonly<MilestoneUpdateEmailTemplat
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Actualización de Hitos - Libro de Obras - IngSimple</title>
+				<title>Actualización de Hitos - Libro de Obras - Ingeniería Simple</title>
 				<Preview>Se han actualizado los hitos del libro de obras {workOrderName}</Preview>
 			</Head>
 			<Body className="bg-gray-100 py-[40px] font-sans">
 				<Container className="mx-auto max-w-[600px] rounded-[8px] bg-white shadow-lg">
 					<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 						<Img
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							src="https://otc360.ingsimple.cl/logo.jpg"
 							className="mx-auto h-auto w-full max-w-[200px] object-cover"
 						/>
@@ -157,7 +157,7 @@ export const MilestoneUpdateEmail: React.FC<Readonly<MilestoneUpdateEmailTemplat
 
 					<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 						<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple
+							© {new Date().getFullYear()} Ingeniería Simple
 						</Text>
 						<Text className="m-0 text-center text-[12px] text-gray-500">
 							Notificación Automática del Sistema - No Responder

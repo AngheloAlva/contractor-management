@@ -954,7 +954,7 @@ enum BasicDocumentType {
   CONTRACT // Contrato de trabajo o de prestación de servicios.
   INSURANCE // Certificado de cobertura del seguro contra accidentes laborales.
   PPE_RECEIPT // Registro firmado de entrega de elementos de protección personal
-  SAFETY_AND_HEALTH_INFO // Inducción sobre Información de riesgos laborales (DS44), la cual debe incluir Los riesgos a los que se podría estar expuesto en IngSimpley las respectivas medidas de control.
+  SAFETY_AND_HEALTH_INFO // Inducción sobre Información de riesgos laborales (DS44), la cual debe incluir Los riesgos a los que se podría estar expuesto en Ingeniería Simpley las respectivas medidas de control.
 }
 
 enum TechSpecsDocumentType {

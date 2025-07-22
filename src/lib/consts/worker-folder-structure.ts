@@ -12,7 +12,8 @@ export interface WorkerFolderStructure {
 
 export const BASE_WORKER_STRUCTURE: WorkerFolderStructure = {
 	title: "Personal",
-	description: "Documentación individual obligatoria para trabajadores que ingresen a IngSimple.",
+	description:
+		"Documentación individual obligatoria para trabajadores que ingresen a Ingeniería Simple.",
 	documents: [
 		{
 			type: WorkerDocumentType.CONTRACT,
@@ -37,7 +38,7 @@ export const BASE_WORKER_STRUCTURE: WorkerFolderStructure = {
 		{
 			type: WorkerDocumentType.HEALTH_EXAM,
 			name: "Examen médico vigente",
-			description: "Emitido por OAL según batería exigida por IngSimple.",
+			description: "Emitido por OAL según batería exigida por Ingeniería Simple.",
 		},
 		{
 			type: WorkerDocumentType.RISK_MATRIX_TRAINING,
@@ -47,7 +48,8 @@ export const BASE_WORKER_STRUCTURE: WorkerFolderStructure = {
 		{
 			type: WorkerDocumentType.WORK_PROCEDURE_TRAINING,
 			name: "Capacitación en procedimientos de trabajo",
-			description: "Registro de capacitación de los procedimientos presentados a IngSimple.",
+			description:
+				"Registro de capacitación de los procedimientos presentados a Ingeniería Simple.",
 		},
 		{
 			type: WorkerDocumentType.EMERGENCY_PROCEDURE_TRAINING,
@@ -84,7 +86,8 @@ export const BASE_WORKER_STRUCTURE: WorkerFolderStructure = {
 
 export const DRIVER_WORKER_STRUCTURE: WorkerFolderStructure = {
 	title: "Personal",
-	description: "Documentación individual obligatoria para conductores que ingresen a IngSimple.",
+	description:
+		"Documentación individual obligatoria para conductores que ingresen a Ingeniería Simple.",
 	documents: [
 		...BASE_WORKER_STRUCTURE.documents,
 		{

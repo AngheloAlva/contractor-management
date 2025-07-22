@@ -51,7 +51,7 @@ export function StartupFolderTable({ onCategorySelect, subFolders }: StartupFold
 				title: "Vehículos y Equipos",
 				category: DocumentCategory.VEHICLES,
 				description:
-					"Documentación requerida para vehículos y equipos utilizados en trabajos de IngSimple.",
+					"Documentación requerida para vehículos y equipos utilizados en trabajos de Ingeniería Simple.",
 				documentsCount: subFolders.vehiclesFolders
 					.map((vf) => vf.totalDocuments)
 					.reduce((a, b) => a + b, 0),

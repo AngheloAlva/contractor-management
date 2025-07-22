@@ -197,7 +197,7 @@ export default function WorkOrderDetailsDialog({
 								/>
 								<DialogLabel
 									icon={<UserIcon className="size-4" />}
-									label="Responsable IngSimple"
+									label="Responsable Ingeniería Simple"
 									value={workOrder.responsible.name}
 								/>
 							</div>

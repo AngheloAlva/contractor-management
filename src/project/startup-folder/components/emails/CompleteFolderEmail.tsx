@@ -39,7 +39,7 @@ export const CompleteFolderEmail = ({
 		<Html>
 			<Tailwind>
 				<Head>
-					<title>Carpeta Completada: {folderName} - IngSimple</title>
+					<title>Carpeta Completada: {folderName} - Ingeniería Simple</title>
 					<Preview>La carpeta {folderName} ha sido completada exitosamente</Preview>
 				</Head>
 				<Body className="bg-gray-100 py-[40px] font-sans">
@@ -48,7 +48,7 @@ export const CompleteFolderEmail = ({
 						<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 							<Img
 								src="https://otc360.ingsimple.cl/logo.jpg"
-								alt="IngSimple Logo"
+								alt="Ingeniería Simple Logo"
 								className="mx-auto h-auto w-full max-w-[200px] object-cover"
 							/>
 						</Section>
@@ -60,8 +60,8 @@ export const CompleteFolderEmail = ({
 							</Heading>
 
 							<Text className="mb-[24px] text-[16px] leading-[24px] text-gray-600">
-								La carpeta ha sido completada exitosamente en IngSimple y ya puedes iniciar las
-								actividades.
+								La carpeta ha sido completada exitosamente en Ingeniería Simple y ya puedes iniciar
+								las actividades.
 							</Text>
 
 							{/* Folder Details */}
@@ -144,14 +144,14 @@ export const CompleteFolderEmail = ({
 									href={systemUrl}
 									className="box-border rounded-[8px] bg-blue-500 px-[32px] py-[12px] text-[16px] font-semibold text-white hover:bg-blue-600"
 								>
-									Ir a IngSimple
+									Ir a Ingeniería Simple
 								</Button>
 							</Section>
 
 							<Hr className="my-[24px] border-gray-200" />
 
 							<Text className="text-[14px] leading-[20px] text-gray-600">
-								Este correo ha sido generado automáticamente por el sistema IngSimple. Para
+								Este correo ha sido generado automáticamente por el sistema Ingeniería Simple. Para
 								cualquier consulta técnica, contacta al administrador del sistema.
 							</Text>
 						</Section>
@@ -159,7 +159,7 @@ export const CompleteFolderEmail = ({
 						{/* Footer */}
 						<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 							<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-								© {new Date().getFullYear()} IngSimple
+								© {new Date().getFullYear()} Ingeniería Simple
 							</Text>
 							<Text className="m-0 text-center text-[12px] text-gray-500">
 								Notificación Interna del Sistema - No Responder

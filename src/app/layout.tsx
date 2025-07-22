@@ -11,7 +11,7 @@ import "./globals.css"
 import "./font-size.css"
 
 export const metadata: Metadata = {
-	title: "IngSimple",
+	title: "Ingeniería Simple",
 }
 
 export default function RootLayout({

@@ -24,7 +24,7 @@ export const SAFETY_AND_HEALTH_STRUCTURE: StartupFolderStructure = {
 		{
 			type: SafetyAndHealthDocumentType.COMPANY_INFO,
 			name: "Ficha empresa",
-			description: "Información de la empresa, responsables y contactos ante IngSimple.",
+			description: "Información de la empresa, responsables y contactos ante Ingeniería Simple.",
 		},
 		{
 			type: SafetyAndHealthDocumentType.STAFF_LIST,
@@ -50,22 +50,24 @@ export const SAFETY_AND_HEALTH_STRUCTURE: StartupFolderStructure = {
 		{
 			type: SafetyAndHealthDocumentType.RISK_MATRIX,
 			name: "Matriz de identificación y evaluación de riesgos",
-			description: "Identificación y evaluación de riesgos relacionados a las tareas en IngSimple.",
+			description:
+				"Identificación y evaluación de riesgos relacionados a las tareas en Ingeniería Simple.",
 		},
 		{
 			type: SafetyAndHealthDocumentType.PREVENTION_PLAN,
 			name: "Plan de Prevención de Riesgos",
-			description: "Plan preventivo basado en la MIPER, específico para IngSimple.",
+			description: "Plan preventivo basado en la MIPER, específico para Ingeniería Simple.",
 		},
 		{
 			type: SafetyAndHealthDocumentType.WORK_PROCEDURE,
 			name: "Procedimientos de trabajo",
-			description: "Procedimientos firmados, vigentes, aplicables a los trabajos en IngSimple.",
+			description:
+				"Procedimientos firmados, vigentes, aplicables a los trabajos en Ingeniería Simple.",
 		},
 		{
 			type: SafetyAndHealthDocumentType.EMERGENCY_PROCEDURE,
 			name: "Procedimiento de emergencia",
-			description: "Acciones ante incidentes o accidentes en instalaciones de IngSimple.",
+			description: "Acciones ante incidentes o accidentes en instalaciones de Ingeniería Simple.",
 		},
 		{
 			type: SafetyAndHealthDocumentType.TOOLS_MAINTENANCE,
@@ -89,7 +91,7 @@ export const SAFETY_AND_HEALTH_STRUCTURE: StartupFolderStructure = {
 export const ENVIRONMENT_STRUCTURE: StartupFolderStructure = {
 	title: "Medio Ambiente",
 	category: DocumentCategory.ENVIRONMENT,
-	description: "Documentación medio ambiental obligatoria según normativa IngSimple.",
+	description: "Documentación medio ambiental obligatoria según normativa Ingeniería Simple.",
 	documents: [
 		{
 			type: EnvironmentDocType.WORK_PROCEDURE,
@@ -143,7 +145,7 @@ export const ENVIRONMENT_STRUCTURE: StartupFolderStructure = {
 export const EXTENDED_ENVIRONMENT_STRUCTURE: StartupFolderStructure = {
 	title: "Medio Ambiente",
 	category: DocumentCategory.ENVIRONMENT,
-	description: "Documentación medio ambiental obligatoria según normativa IngSimple.",
+	description: "Documentación medio ambiental obligatoria según normativa Ingeniería Simple.",
 	documents: [
 		...ENVIRONMENT_STRUCTURE.documents,
 		{

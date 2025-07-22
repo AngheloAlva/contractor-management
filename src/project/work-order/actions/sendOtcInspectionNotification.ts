@@ -63,7 +63,7 @@ export const sendOtcInspectionNotification = async ({
 
 		const inspectionData = {
 			id: inspection.id,
-			activityName: inspection.activityName || "Inspección IngSimple",
+			activityName: inspection.activityName || "Inspección Ingeniería Simple",
 			executionDate: inspection.executionDate,
 			activityStartTime: inspection.activityStartTime || "",
 			activityEndTime: inspection.activityEndTime || "",
@@ -133,8 +133,8 @@ export const sendOtcInspectionNotification = async ({
 		// Send emails to all recipients
 		const emailPromises = recipients.map(async (recipient, i) => {
 			const subject = hasSafetyIssues
-				? `🚨 URGENTE: Inspección IngSimplecon No Conformidades - OT ${workOrderData.otNumber}`
-				: `📋 Nueva Inspección IngSimpleRealizada - OT ${workOrderData.otNumber}`
+				? `🚨 URGENTE: Inspección Ingeniería Simplecon No Conformidades - OT ${workOrderData.otNumber}`
+				: `📋 Nueva Inspección Ingeniería SimpleRealizada - OT ${workOrderData.otNumber}`
 
 			return resend.emails.send({
 				from: "anghelo.alva@ingenieriasimple.cl",

@@ -26,7 +26,7 @@ const mapPoints: MapPoint[] = [
 	{
 		id: "point1",
 		name: "Entrada a la planta",
-		description: "Presentación de la planta IngSimple",
+		description: "Presentación de la planta Ingeniería Simple",
 		position: { x: 7, y: 86 },
 		variant: "default",
 		videoUrl: "https://drive.google.com/file/d/1eE7JEOpzftpB9_7nj67BLw1rNBhNFso-/preview",

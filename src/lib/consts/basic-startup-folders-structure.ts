@@ -13,7 +13,7 @@ export interface BasicStartupFolderStructure {
 export const BASIC_FOLDER_STRUCTURE: BasicStartupFolderStructure = {
 	title: "Documentación básica",
 	description:
-		"Documentación básica para que el trabajador pueda desempeñar sus funciones en IngSimple.",
+		"Documentación básica para que el trabajador pueda desempeñar sus funciones en Ingeniería Simple.",
 	documents: [
 		{
 			type: BasicDocumentType.CONTRACT,
@@ -34,7 +34,7 @@ export const BASIC_FOLDER_STRUCTURE: BasicStartupFolderStructure = {
 			type: BasicDocumentType.SAFETY_AND_HEALTH_INFO,
 			name: "Inducción sobre Información de riesgos laborales (DS44)",
 			description:
-				"Inducción sobre Información de riesgos laborales (DS44), la cual debe incluir, los riesgos a los que se podría estar expuesto en IngSimpley las respectivas medidas de control.",
+				"Inducción sobre Información de riesgos laborales (DS44), la cual debe incluir, los riesgos a los que se podría estar expuesto en Ingeniería Simpley las respectivas medidas de control.",
 		},
 	],
 }

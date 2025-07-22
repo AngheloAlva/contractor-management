@@ -12,7 +12,7 @@ import { Button } from "@/shared/components/ui/button"
 import { PlusCircleIcon } from "lucide-react"
 
 export const metadata: Metadata = {
-	title: "Permisos de Trabajo | IngSimple",
+	title: "Permisos de Trabajo | Ingeniería Simple",
 	description: "Gestión y monitoreo de permisos de trabajo para empresas contratistas",
 }
 

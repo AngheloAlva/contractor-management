@@ -30,7 +30,7 @@ export const ApproveMilestoneEmail: React.FC<Readonly<ApproveMilestoneEmailProps
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Hito {otNumber} aprobado - IngSimple</title>
+				<title>Hito {otNumber} aprobado - Ingeniería Simple</title>
 				<Preview>
 					El hito {milestoneName} de la orden de trabajo {otNumber} ha sido aprobado
 				</Preview>
@@ -41,7 +41,7 @@ export const ApproveMilestoneEmail: React.FC<Readonly<ApproveMilestoneEmailProps
 					<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 						<Img
 							src="https://otc360.ingsimple.cl/logo.jpg"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							className="mx-auto h-auto w-full max-w-[200px] object-cover"
 						/>
 					</Section>
@@ -120,7 +120,7 @@ export const ApproveMilestoneEmail: React.FC<Readonly<ApproveMilestoneEmailProps
 								href={systemUrl}
 								className="box-border rounded-[8px] bg-blue-500 px-[32px] py-[12px] text-[16px] font-semibold text-white hover:bg-blue-600"
 							>
-								Acceder a IngSimple
+								Acceder a Ingeniería Simple
 							</Button>
 						</Section>
 
@@ -135,7 +135,7 @@ export const ApproveMilestoneEmail: React.FC<Readonly<ApproveMilestoneEmailProps
 					{/* Footer */}
 					<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 						<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple
+							© {new Date().getFullYear()} Ingeniería Simple
 						</Text>
 						<Text className="m-0 text-center text-[12px] text-gray-500">
 							Notificación Automática del Sistema - No Responder

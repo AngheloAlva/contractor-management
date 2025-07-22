@@ -9,13 +9,12 @@ export default function HomePage(): React.ReactElement {
 				<div className="relative mx-auto max-w-screen-xl px-4 sm:mx-0 sm:px-6 md:px-10 lg:flex lg:h-screen lg:items-center lg:px-16">
 					<div className="max-w-xl text-center sm:text-left">
 						<h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-							Ing
+							Ingeniería
 							<strong className="font-extrabold text-green-600">Simple</strong>
 						</h1>
 
 						<p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-							Sistema para la gestion de ordenes de trabajo, permisos de trabajo, libros de obra,
-							charlas de seguridad, entre otros.
+							Sistema de control Operacional 360 enfocado a la necesidad de cada cliente
 						</p>
 
 						<div className="mt-8 flex flex-wrap gap-4 text-center">

@@ -143,7 +143,8 @@ export default function OtcInspectorForm({
 				<SheetHeader className="shadow">
 					<SheetTitle>Inspección OTC</SheetTitle>
 					<SheetDescription>
-						Complete la información en el formulario para crear una nueva inspección IngSimple.
+						Complete la información en el formulario para crear una nueva inspección Ingeniería
+						Simple.
 					</SheetDescription>
 				</SheetHeader>
 

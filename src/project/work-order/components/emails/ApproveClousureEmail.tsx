@@ -34,7 +34,7 @@ export const ApproveClousureEmail: React.FC<Readonly<ApproveClosureEmailTemplate
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Cierre de Libro de Obras Aprobado - IngSimple</title>
+				<title>Cierre de Libro de Obras Aprobado - Ingeniería Simple</title>
 				<Preview>El cierre del libro de obras {workOrderName} ha sido aprobado</Preview>
 			</Head>
 			<Body className="bg-gray-100 py-[40px] font-sans">
@@ -43,7 +43,7 @@ export const ApproveClousureEmail: React.FC<Readonly<ApproveClosureEmailTemplate
 					<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 						<Img
 							src="https://otc360.ingsimple.cl/logo.jpg"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							className="mx-auto h-auto w-full max-w-[200px] object-cover"
 						/>
 					</Section>
@@ -157,7 +157,7 @@ export const ApproveClousureEmail: React.FC<Readonly<ApproveClosureEmailTemplate
 					{/* Footer */}
 					<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 						<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple
+							© {new Date().getFullYear()} Ingeniería Simple
 						</Text>
 						<Text className="m-0 text-center text-[12px] text-gray-500">
 							Notificación Automática del Sistema - No Responder

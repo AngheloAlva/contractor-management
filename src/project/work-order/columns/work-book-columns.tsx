@@ -37,7 +37,7 @@ export const workBookColumns: ColumnDef<WorkBookByCompany>[] = [
 	},
 	{
 		accessorKey: "responsible.name",
-		header: "Responsable de IngSimple",
+		header: "Responsable de Ingeniería Simple",
 	},
 	{
 		accessorKey: "workName",

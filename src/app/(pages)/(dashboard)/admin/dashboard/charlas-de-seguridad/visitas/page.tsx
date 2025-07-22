@@ -13,8 +13,8 @@ import {
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	title: "Charla de Visitas - IngSimple",
-	description: "Charla de seguridad para visitantes de la planta IngSimple",
+	title: "Charla de Visitas - Ingeniería Simple",
+	description: "Charla de seguridad para visitantes de la planta Ingeniería Simple",
 }
 
 export default function VisitorTalk() {
@@ -30,7 +30,7 @@ export default function VisitorTalk() {
 					<div className="text-white">
 						<h1 className="text-3xl font-bold tracking-tight">Charla de Visitas</h1>
 						<p className="opacity-90">
-							Conoce las instalaciones de la planta IngSimpley sus protocolos de seguridad
+							Conoce las instalaciones de la planta Ingeniería Simpley sus protocolos de seguridad
 						</p>
 					</div>
 				</div>
@@ -41,8 +41,8 @@ export default function VisitorTalk() {
 					<div>
 						<CardTitle className="text-xl">Instrucciones</CardTitle>
 						<CardDescription>
-							Este mapa interactivo te permite conocer las diferentes áreas de la planta IngSimpley
-							los protocolos de seguridad asociados.
+							Este mapa interactivo te permite conocer las diferentes áreas de la planta Ingeniería
+							Simpley los protocolos de seguridad asociados.
 						</CardDescription>
 					</div>
 

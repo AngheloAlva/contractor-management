@@ -45,7 +45,7 @@ export const environmentalQuestions: Question[] = [
 				id: "b",
 				text: "Debe disponerla en la Tolva de Basura Asimilable, cada vez que la genere.",
 			},
-			{ id: "c", text: "Esta prohíbo disponer basura domiciliaria en IngSimple" },
+			{ id: "c", text: "Esta prohíbo disponer basura domiciliaria en Ingeniería Simple" },
 		],
 		correctAnswer: "c",
 	},

@@ -30,7 +30,7 @@ export default function NotFound() {
 			</div>
 
 			<div className="text-muted-foreground py-4 text-center text-xs">
-				© {new Date().getFullYear()} - IngSimple
+				© {new Date().getFullYear()} - Ingeniería Simple
 			</div>
 		</div>
 	)

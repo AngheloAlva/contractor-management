@@ -45,7 +45,7 @@ export const RequestReviewEmail = ({
 						<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 							<Img
 								src="https://otc360.ingsimple.cl/logo.jpg"
-								alt="IngSimple Logo"
+								alt="Ingeniería Simple Logo"
 								className="mx-auto h-auto w-full max-w-[200px] object-cover"
 							/>
 						</Section>
@@ -57,7 +57,7 @@ export const RequestReviewEmail = ({
 							</Heading>
 
 							<Text className="mb-[24px] text-[16px] leading-[24px] text-gray-600">
-								Se ha recibido una nueva solicitud de revisión de subcarpeta en IngSimple.
+								Se ha recibido una nueva solicitud de revisión de subcarpeta en Ingeniería Simple.
 							</Text>
 
 							{/* Request Details */}
@@ -152,7 +152,7 @@ export const RequestReviewEmail = ({
 									Próximos Pasos
 								</Heading>
 								<Text className="mb-[10px] text-[14px] leading-[20px] text-gray-600">
-									1. Accede al sistema IngSimple para revisar la solicitud
+									1. Accede al sistema Ingeniería Simple para revisar la solicitud
 								</Text>
 								<Text className="mb-[10px] text-[14px] leading-[20px] text-gray-600">
 									2. Evalúa la documentación de la subcarpeta solicitada
@@ -168,7 +168,7 @@ export const RequestReviewEmail = ({
 							<Hr className="my-[24px] border-gray-200" />
 
 							<Text className="text-[14px] leading-[20px] text-gray-600">
-								Este correo ha sido generado automáticamente por el sistema IngSimple. Para
+								Este correo ha sido generado automáticamente por el sistema Ingeniería Simple. Para
 								cualquier consulta técnica, contacta al administrador del sistema.
 							</Text>
 						</Section>
@@ -176,7 +176,7 @@ export const RequestReviewEmail = ({
 						{/* Footer */}
 						<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 							<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-								© {new Date().getFullYear()} IngSimple
+								© {new Date().getFullYear()} Ingeniería Simple
 							</Text>
 							<Text className="m-0 text-center text-[12px] text-gray-500">
 								Notificación Interna del Sistema - No Responder

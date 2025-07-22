@@ -30,7 +30,7 @@ export const RejectMilestoneEmail: React.FC<Readonly<RejectMilestoneEmailProps>>
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Hito {otNumber} rechazado - IngSimple</title>
+				<title>Hito {otNumber} rechazado - Ingeniería Simple</title>
 				<Preview>
 					El hito {milestoneName} de la orden de trabajo {otNumber} ha sido rechazado
 				</Preview>
@@ -41,7 +41,7 @@ export const RejectMilestoneEmail: React.FC<Readonly<RejectMilestoneEmailProps>>
 					<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 						<Img
 							src="https://otc360.ingsimple.cl/logo.jpg"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							className="mx-auto h-auto w-full max-w-[200px] object-cover"
 						/>
 					</Section>
@@ -131,7 +131,7 @@ export const RejectMilestoneEmail: React.FC<Readonly<RejectMilestoneEmailProps>>
 					{/* Footer */}
 					<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 						<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple
+							© {new Date().getFullYear()} Ingeniería Simple
 						</Text>
 						<Text className="m-0 text-center text-[12px] text-gray-500">
 							Notificación Automática del Sistema - No Responder

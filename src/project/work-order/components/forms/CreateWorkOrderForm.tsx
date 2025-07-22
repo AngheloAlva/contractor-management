@@ -225,7 +225,7 @@ export default function CreateWorkOrderForm({
 
 						<SelectWithSearchFormField<WorkOrderSchema>
 							name="responsibleId"
-							label="Responsable IngSimple"
+							label="Responsable Ingeniería Simple"
 							control={form.control}
 							placeholder="Selecciona un responsable"
 							description="Persona que se encargara de la OT"

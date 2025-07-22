@@ -43,7 +43,7 @@ export const RequestCloseMilestoneEmail: React.FC<Readonly<RequestCloseMilestone
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Solicitud de Cierre de Hito - IngSimple</title>
+				<title>Solicitud de Cierre de Hito - Ingeniería Simple</title>
 				<Preview>
 					Se ha solicitado el cierre del hito {milestone.name} de la orden de trabajo{" "}
 					{milestone.workOrder.otNumber}
@@ -55,7 +55,7 @@ export const RequestCloseMilestoneEmail: React.FC<Readonly<RequestCloseMilestone
 					<Section className="rounded-t-[8px] px-[40px] py-[32px] text-center">
 						<Img
 							src="https://otc360.ingsimple.cl/logo.jpg"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							className="mx-auto h-auto w-full max-w-[200px] object-cover"
 						/>
 					</Section>
@@ -182,7 +182,7 @@ export const RequestCloseMilestoneEmail: React.FC<Readonly<RequestCloseMilestone
 					{/* Footer */}
 					<Section className="rounded-b-[8px] bg-gray-50 px-[40px] py-[24px]">
 						<Text className="m-0 mb-[8px] text-center text-[12px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple
+							© {new Date().getFullYear()} Ingeniería Simple
 						</Text>
 						<Text className="m-0 text-center text-[12px] text-gray-500">
 							Notificación Automática del Sistema - No Responder

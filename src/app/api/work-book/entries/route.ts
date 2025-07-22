@@ -60,7 +60,7 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
 					createdAt: true,
 					entryType: true,
 					attachments: true,
-					// IngSimpleInspection fields
+					// Ingeniería SimpleInspection fields
 					supervisionComments: true,
 					safetyObservations: true,
 					nonConformities: true,

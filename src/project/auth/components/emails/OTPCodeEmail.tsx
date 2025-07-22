@@ -23,8 +23,10 @@ export const OTPCodeEmail: React.FC<Readonly<OTPCodeEmailTemplateProps>> = ({ ot
 	<Html>
 		<Tailwind>
 			<Head>
-				<title>Código de verificación para IngSimple - OTC</title>
-				<Preview>Su código de verificación para acceder a IngSimple - IngSimplees: {otp}</Preview>
+				<title>Código de verificación para Ingeniería Simple - OTC</title>
+				<Preview>
+					Su código de verificación para acceder a Ingeniería Simple - Ingeniería Simplees: {otp}
+				</Preview>
 			</Head>
 			<Body className="bg-gray-100 py-[40px] font-sans">
 				<Container className="mx-auto max-w-[600px] rounded-[8px] bg-white p-[40px]">
@@ -32,7 +34,7 @@ export const OTPCodeEmail: React.FC<Readonly<OTPCodeEmailTemplateProps>> = ({ ot
 						<Img
 							width="150"
 							height="142"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							src={`${systemUrl}/logo.jpg`}
 							className="mx-auto h-auto w-[150px] object-cover"
 						/>
@@ -47,8 +49,8 @@ export const OTPCodeEmail: React.FC<Readonly<OTPCodeEmailTemplateProps>> = ({ ot
 
 						<Text className="mb-[24px] text-[16px] text-gray-600">
 							Hemos recibido una solicitud de inicio de sesión en su cuenta de{" "}
-							<strong>IngSimple - OTC</strong>. Para completar el proceso de verificación, utilice
-							el siguiente código:
+							<strong>Ingeniería Simple - OTC</strong>. Para completar el proceso de verificación,
+							utilice el siguiente código:
 						</Text>
 
 						<Section className="mb-[24px] rounded-[8px] border border-gray-200 bg-gray-50 p-[24px] text-center">
@@ -77,13 +79,14 @@ export const OTPCodeEmail: React.FC<Readonly<OTPCodeEmailTemplateProps>> = ({ ot
 
 						<Text className="mb-[16px] text-[16px] text-gray-600">
 							Por razones de seguridad, nunca comparta este código con otras personas, incluyendo
-							personal de IngSimple. Nuestro equipo nunca le solicitará su código de verificación.
+							personal de Ingeniería Simple. Nuestro equipo nunca le solicitará su código de
+							verificación.
 						</Text>
 
 						<Text className="mb-[8px] text-[16px] text-gray-600">Saludos cordiales,</Text>
 
 						<Text className="mb-[24px] text-[16px] font-bold text-gray-700">
-							El equipo de IngSimple
+							El equipo de Ingeniería Simple
 						</Text>
 					</Section>
 
@@ -91,7 +94,7 @@ export const OTPCodeEmail: React.FC<Readonly<OTPCodeEmailTemplateProps>> = ({ ot
 
 					<Section>
 						<Text className="m-0 text-center text-[14px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple. Todos los derechos reservados.
+							© {new Date().getFullYear()} Ingeniería Simple. Todos los derechos reservados.
 						</Text>
 					</Section>
 				</Container>

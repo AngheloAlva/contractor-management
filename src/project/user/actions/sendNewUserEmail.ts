@@ -14,7 +14,7 @@ export const sendNewUserEmail = async ({ email, name, password }: SendNewUserEma
 		const { data, error } = await resend.emails.send({
 			from: "anghelo.alva@ingenieriasimple.cl",
 			to: [email, "anghelo.alva@ingenieriasimple.cl", "soporte@ingenieriasimple.cl"],
-			subject: `Bienvenido a IngSimple`,
+			subject: `Bienvenido a Ingeniería Simple`,
 			react: await NewUserEmail({
 				name,
 				email,

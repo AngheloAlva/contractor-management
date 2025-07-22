@@ -37,7 +37,7 @@ export const SupportEmail: React.FC<Readonly<SupportEmailProps>> = ({
 						<Img
 							width="150"
 							height="142"
-							alt="IngSimple Logo"
+							alt="Ingeniería Simple Logo"
 							src={`${systemUrl}/logo.jpg`}
 							className="mx-auto h-auto w-[150px] object-cover"
 						/>
@@ -69,7 +69,7 @@ export const SupportEmail: React.FC<Readonly<SupportEmailProps>> = ({
 
 					<Section>
 						<Text className="m-0 text-center text-[14px] text-gray-500">
-							© {new Date().getFullYear()} IngSimple. Todos los derechos reservados.
+							© {new Date().getFullYear()} Ingeniería Simple. Todos los derechos reservados.
 						</Text>
 					</Section>
 				</Container>
